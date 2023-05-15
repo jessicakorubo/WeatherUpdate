@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Forecast</title>
+    <link rel="shortcut icon" href="images/icons8-sun-48.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="nav-wrapper">
+        <div class="mobile_nav">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+        </div>
+        <div class="nav">
+          <ul>
+            <li><a href="">Weather</a></li>
+            <li><a href="">Alerts</a></li>
+            <li><a href="">Maps</a></li>
+            <li><a href="">Satellites</a></li>
+            <li><a href="">News</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="container_main">
+        <div class="container_inner">
+          <div class="background">
+            <div class="hero">
+              <h1>The only weather forecast you need</h1>
+              <div class="hrule">
+                <hr />
+              </div>
+              <div class="searchLine">
+                <input
+                  type="text"
+                  name=""
+                  id="location"
+                  placeholder="Enter location"/>
+                <button class="searchBtn">
+                  <svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 512 512"
+                    height="1em"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M443.5 420.2L336.7 312.4c20.9-26.2 33.5-59.4 33.5-95.5 0-84.5-68.5-153-153.1-153S64
+                        132.5 64 217s68.5 153 153.1 153c36.6 0 70.1-12.8 96.5-34.2l106.1 107.1c3.2 3.4 7.6
+                        5.1 11.9 5.1 4.1 0 8.2-1.5 11.3-4.5 6.6-6.3 6.8-16.7.6-23.3zm-226.4-83.1c-32.1
+                        0-62.3-12.5-85-35.2-22.7-22.7-35.2-52.9-35.2-84.9 0-32.1 12.5-62.3 35.2-84.9 22.7-22.7 52.9-35.2 85-35.2s62.3 12.5 85 35.2c22.7
+                        22.7 35.2 52.9 35.2 84.9 0 32.1-12.5 62.3-35.2 84.9-22.7 22.7-52.9 35.2-85 35.2z"
+                    ></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="info">
+            <h2>Today's weather</h2>
+            <div class="card">
+              <div class="report">
+                <h1 class="temp">32°C in Denver</h1>
+                <div class="icon">
+                  <h2 class="weather">Sunny</h2>
+                  <img class="icon_img" src="images/icons8-sun-48.png" alt="" />
+                </div>
+                <p class="date" style="color:crimson; font-weight: bold"></p>
+              </div>
+              <hr />
+              <div class="details">
+                <p class="realfeel">Real feel:</p>
+                <p class="humidity">Humidity :</p>
+                <p class="description">Description :</p>
+                <p class="cloud_cover">Cloud Cover:</p>
+                <p class="visibility">visibility: 3km/h</p>
+                <p class="wind_speed">Wind speed: 12km/h</p>
+              </div>
+            </div>
+            <div class="section2">
+              <h1>Weather in Denver</h1>
+
+              <div class="sm-card">
+                <div class="dailyWrap">
+                  <div class="daily">
+                    <h1>28°C</h1>
+                    <div class="weatherPic">
+                      <div class="flex">
+                        <h3>Rain</h3>
+                        <img src="images/icons8-cloud-96-removebg-preview.png" alt="">
+                      </div>
+                      <p class="tomorrowDate">Monday 4th April 2023</p>
+                    </div>
+                  </div>
+                  <div class="daily">
+                    <h1>28°C</h1>
+                    <div class="weatherPic">
+                      <div class="flex">
+                        <h3>Rain</h3>
+                        <img src="images/icons8-cloud-96-removebg-preview.png" alt="">
+                      </div>
+                      <p class="tomorrowDate">Monday 4th April 2023</p>
+                    </div>
+                  </div>
+                  <div class="daily">
+                    <h1>28°C</h1>
+                    <div class="weatherPic">
+                      <div class="flex">
+                        <h3>Sunny</h3>
+                        <img src="images/icons8-sun-48.png" alt="">
+                      </div>
+                      <p class="tomorrowDate">Monday 4th April 2023</p>
+                    </div>
+                  </div>
+                  <div class="daily">
+                    <h1>28°C</h1>
+                    <div class="weatherPic">
+                      <div class="flex">
+                        <h3>Rain</h3>
+                        <img src="" alt="">
+                      </div>
+                      <p class="tomorrowDate">Monday 4th April 2023</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
