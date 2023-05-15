@@ -58,9 +58,6 @@ searchbar.addEventListener("keypress", ()=>{
     search();
 })
 
-// console.log(toDateString());
-// let day = getDate();
-
 const dater = new Date().toDateString();
 console.log(dater);
 
